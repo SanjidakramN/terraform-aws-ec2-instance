@@ -11,8 +11,8 @@ provider "aws" {
   
 }
 resource "aws_instance" "registry-instance" {
-  ami = var.my-ami
-  instance_type = var.my-instance-type
+  ami = var.my_ami
+  instance_type = var.my_instance_type
   tags = {
     Name = "registry-instance"
   }
