@@ -14,6 +14,6 @@ resource "aws_instance" "ec2-instance" {
   ami = var.my-ami
   instance_type = var.my-instance-type
   tags = {
-    Name = "registry-instance"
+    Name = "ec2-instance"
   }
 }
