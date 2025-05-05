@@ -16,3 +16,4 @@ resource "aws_instance" "registry-instance" {
   tags = {
     Name = "registry-instance"
   }
+}
