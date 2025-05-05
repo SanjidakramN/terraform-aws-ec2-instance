@@ -10,10 +10,10 @@ provider "aws" {
   region = "us-east-1"
   
 }
-resource "aws_instance" "ec2-instance" {
+resource "aws_instance" "registry-instance" {
   ami = var.my-ami
   instance_type = var.my-instance-type
   tags = {
-    Name = "ec2-instance"
+    Name = "registry-instance"
   }
 }
